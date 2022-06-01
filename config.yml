@@ -1,0 +1,4 @@
+jtype: HtmlStripper
+metas:
+  py_modules:
+    - executor.py
