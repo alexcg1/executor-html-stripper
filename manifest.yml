@@ -1,2 +1,5 @@
 manifest_version: 1
 name: HtmlStripper
+description: Strip HTML out of doc.text
+url: https://github.com/alexcg1/executor-html-stripper
+keywords: ['text', 'html']
