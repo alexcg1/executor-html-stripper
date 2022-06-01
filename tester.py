@@ -1,4 +1,3 @@
-from jina import Flow
 from executor import HtmlStripper
 from docarray import Document, DocumentArray
 
@@ -34,7 +33,3 @@ e = HtmlStripper()
 e.strip_html(docs)
 
 print([doc.text for doc in docs])
-# flow = Flow().add(uses=HtmlStripper)
-
-# with flow:
-    # docs = flow.index(docs)
